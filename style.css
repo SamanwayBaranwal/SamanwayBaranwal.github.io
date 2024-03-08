@@ -28,8 +28,9 @@ nav ul li {
     margin: 0 23px;
 }
 
-.left {
-    font-size: 1.5rem;
+.left img {
+    width: 35px;
+    height: auto;
 }
 
 .firstSection {
