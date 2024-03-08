@@ -314,3 +314,25 @@ footer div {
         margin: 2px 0px;
     }
 }
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    filter: grayscale(1);
+    transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.social-links a:hover {
+    filter: grayscale(0);
+    transform: scale(1.2); /* Zoom effect */
+}
+
+.social-links img {
+    width: 20px;
+    height: auto;
+    transition: width 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.social-links img:hover {
+    width: 25px; /* Zoom effect */
+}
+
